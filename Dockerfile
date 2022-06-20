@@ -1,4 +1,4 @@
-FROM python:3.10-slim-bullseye
+FROM alpine:3.14
 
 WORKDIR /
 RUN mkdir /myvol
